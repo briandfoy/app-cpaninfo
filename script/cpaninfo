@@ -1,5 +1,5 @@
-use App::metacpan;
+use App::cpaninfo;
 
 exit(
-	App::metacpan->run( @ARGV )
+	App::cpaninfo->run( @ARGV )
 	);
