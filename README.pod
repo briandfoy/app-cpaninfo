@@ -2,9 +2,9 @@
 
 =encoding utf8
 
-=head1 The App::metacpan module
+=head1 The App::cpaninfo module
 
-This is the I<README> for the L<App::metacpan> Perl module.
+This is the I<README> for the L<App::cpaninfo> Perl module.
 
 You're probably looking at this because you don't know where else to
 find what you're looking for. Read this once and you might never have
@@ -12,19 +12,19 @@ to read one again for any Perl module.
 
 =head2 Documentation
 
-To read about L<App::metacpan>, look at the embedded documentation
+To read about L<App::cpaninfo>, look at the embedded documentation
 in the module itself. Inside the distribution, you can format it
 with L<perldoc|http://perldoc.perl.org/perldoc.html>:
 
-	% perldoc lib/App/metacpan.pm
+	% perldoc lib/App/cpaninfo.pm
 
 If you have already installed the module, you can specify the module
 name instead of the file location:
 
-	% perldoc App::metacpan
+	% perldoc App::cpaninfo
 
 You can read the documentation and inspect the meta data on
-L<MetaCPAN|http://www.metacpan.org/module/App::metacpan>.
+L<MetaCPAN|http://www.metacpan.org/module/App::cpaninfo>.
 
 The standard module documentation has example uses in the SYNOPSIS
 section, but you can also look in the I<examples/> directory (if it's
@@ -35,8 +35,8 @@ there), or look at the test files in I<t/>.
 You can install this module with a CPAN client, which will resolve
 and install the dependencies:
 
-	% cpan App::metacpan
-	% cpanm App::metacpan
+	% cpan App::cpaninfo
+	% cpanm App::cpaninfo
 
 You can also install directly from the distribution directory, which
 will also install the dependencies:
@@ -63,16 +63,16 @@ the source repository:
 
 =over 4
 
-=item *	L<https://github.com/briandfoy/app-metacpan>
+=item *	L<https://github.com/briandfoy/app-cpaninfo>
 
 =back
 
 If you find a problem, file a ticket in the L<issue
-tracker|https://github.com/briandfoy/app-metacpan/issues>:
+tracker|https://github.com/briandfoy/app-cpaninfo/issues>:
 
 =over 4
 
-=item *	L<https://github.com/briandfoy/app-metacpan/issues>
+=item *	L<https://github.com/briandfoy/app-cpaninfo/issues>
 
 =back
 

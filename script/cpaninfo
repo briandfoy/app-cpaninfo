@@ -1,0 +1,5 @@
+use App::metacpan;
+
+exit(
+	App::metacpan->run( @ARGV )
+	);

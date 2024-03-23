@@ -1,10 +1,10 @@
-package App::metacpan;
+package App::cpaninfo;
 use strict;
 use warnings;
 
 =encoding utf8
 
-=head1 The build file for App::metacpan
+=head1 The build file for App::cpaninfo
 
 This build file is a modulino; it works as both a build script and
 a module.
@@ -40,7 +40,7 @@ use File::Spec::Functions qw(catfile);
 my $module    = __PACKAGE__;
 ( my $dist = $module ) =~ s/::/-/g;
 
-my $github    = 'https://github.com/briandfoy/app-metacpan';
+my $github    = 'https://github.com/briandfoy/app-cpaninfo';
 my $main_file = catfile( 'lib', split /::/, "$module.pm" );
 
 my %WriteMakefile = (
