@@ -2,6 +2,20 @@
 
 =encoding utf8
 
+=for HTML <a href="https://www.github.com/briandfoy/app-cpaninfo/actions?query=workflow%3Amacos"><img src="https://www.github.com/briandfoy/app-cpaninfo/workflows/macos/badge.svg"></a>
+
+=for HTML <a href="https://www.github.com/briandfoy/app-cpaninfo/actions?query=workflow%3Aubuntu"><img src="https://www.github.com/briandfoy/app-cpaninfo/workflows/ubuntu/badge.svg"></a>
+
+=for HTML <a href="https://www.github.com/briandfoy/app-cpaninfo/actions?query=workflow%3Awindows"><img src="https://www.github.com/briandfoy/app-cpaninfo/workflows/windows/badge.svg"></a>
+
+=for HTML <a href='https://ci.appveyor.com/project/briandfoy/app-cpaninfo'><img src='https://ci.appveyor.com/api/projects/status/xi2oe5y4rowyh66v?svg=true'></a>
+
+=for HTML <a href='https://coveralls.io/github/briandfoy/app-cpaninfo?branch=master'><img src='https://coveralls.io/repos/github/briandfoy/app-cpaninfo/badge.svg?branch=master' alt='Coverage Status' /></a>
+
+=for HTML <a href="https://github.com/briandfoy/app-cpaninfo/blob/master/LICENSE"><img src="https://img.shields.io/cpan/l/App-cpaninfo.svg" /></a>
+
+=for HTML <a href="https://metacpan.org/pod/App::cpaninfo"><img src="https://img.shields.io/cpan/v/App-cpaninfo.svg" /></A>
+
 =head1 The App::cpaninfo module
 
 This is the I<README> for the L<App::cpaninfo> Perl module.
