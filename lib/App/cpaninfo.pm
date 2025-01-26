@@ -86,6 +86,7 @@ sub modules ($class) {
 	qw(
 		App::cpaninfo::Command::distribution
 		App::cpaninfo::Command::module
+		App::cpaninfo::Command::try
 		);
 
 	}

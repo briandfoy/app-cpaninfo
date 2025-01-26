@@ -25,6 +25,8 @@ sub run ( $class, @args ) {
 	my $self = $class->new( $options );
 
 	my $r = $self->client->module( $arg );
+	# my $dist_results = $self->client->module( $module_results->distribution );
+	# my $release_results = $self->client->release( $module_results->distribution );
 
 	my %hash = map { my $m = $_->[1]; $_->[0] => $r->$m() } $map->@*;
 	$hash{'args'} = [ @args ];
