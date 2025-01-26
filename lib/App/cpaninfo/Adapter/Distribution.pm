@@ -1,6 +1,24 @@
 package App::cpaninfo::Adapter::Distribution;
 use parent qw(App::cpaninfo::Adapter::Base);
 
+=encoding utf8
+
+=head1 NAME
+
+App::cpaninfo::Adapter::Distribution -
+
+=head1 SYNOPSIS
+
+	use App::cpaninfo;
+
+=head1 DESCRIPTION
+
+=over 4
+
+=item new
+
+=cut
+
 sub _map ( $class ) {
 	state %methods = map { $_, 1 } qw(
 		metacpan_url name
@@ -10,6 +28,32 @@ sub _map ( $class ) {
 
 sub rt_url     ( $self ) { $self->object->rt->{url}     }
 sub github_url ( $self ) { $self->object->github->{url} }
+
+=back
+
+=head1 TO DO
+
+
+=head1 SEE ALSO
+
+
+=head1 SOURCE AVAILABILITY
+
+This source is in Github:
+
+	http://github.com/briandfoy/app-cpaninfo
+
+=head1 AUTHOR
+
+brian d foy, C<< <briandfoy@pobox.com> >>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright © 2024, brian d foy, All Rights Reserved.
+
+You may redistribute this under the terms of the Artistic License 2.0.
+
+=cut
 
 1;
 

@@ -1,6 +1,24 @@
 package App::cpaninfo::Adapter::Release;
 use parent qw(App::cpaninfo::Adapter::Base);
 
+=encoding utf8
+
+=head1 NAME
+
+App::cpaninfo::Adapter::Release -
+
+=head1 SYNOPSIS
+
+	use App::cpaninfo;
+
+=head1 DESCRIPTION
+
+=over 4
+
+=item new
+
+=cut
+
 sub AUTOLOAD ($self) { shift->SUPER::AUTOLOAD }
 
 sub _map ( $class ) {
@@ -11,6 +29,32 @@ sub _map ( $class ) {
 	say "in _map";
 	return \%methods;
 	}
+
+=back
+
+=head1 TO DO
+
+
+=head1 SEE ALSO
+
+
+=head1 SOURCE AVAILABILITY
+
+This source is in Github:
+
+	http://github.com/briandfoy/app-cpaninfo
+
+=head1 AUTHOR
+
+brian d foy, C<< <briandfoy@pobox.com> >>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright © 2024, brian d foy, All Rights Reserved.
+
+You may redistribute this under the terms of the Artistic License 2.0.
+
+=cut
 
 1;
 
