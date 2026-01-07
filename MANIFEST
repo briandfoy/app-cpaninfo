@@ -8,7 +8,7 @@ lib/App/cpaninfo/Adapter/Base.pm
 lib/App/cpaninfo/Adapter/Distribution.pm
 lib/App/cpaninfo/Adapter/Module.pm
 lib/App/cpaninfo/Adapter/Release.pm
-lib/App/cpaninfo/Adapter/{Distribution
+lib/App/cpaninfo/Adapter/Distribution.pm
 lib/App/cpaninfo/Command.pm
 lib/App/cpaninfo/Command/distribution.pm
 lib/App/cpaninfo/Command/module.pm
