@@ -1,6 +1,6 @@
 use v5.36;
 
-package App::cpaninfo::Adapter::Distribution;
+package App::cpaninfo::Adapter::Module;
 use parent qw(App::cpaninfo::Adapter::Base);
 use experimental qw(signatures);
 
