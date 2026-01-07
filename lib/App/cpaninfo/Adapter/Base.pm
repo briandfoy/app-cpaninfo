@@ -1,6 +1,7 @@
-use v5.10;
+use v5.36;
 
 package App::cpaninfo::Adapter::Base;
+use experimental qw(signatures);
 
 our $AUTOLOAD;
 

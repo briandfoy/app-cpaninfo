@@ -1,5 +1,8 @@
+use v5.36;
+
 package App::cpaninfo::Adapter::Release;
 use parent qw(App::cpaninfo::Adapter::Base);
+use experimental qw(signatures);
 
 =encoding utf8
 
@@ -19,10 +22,10 @@ App::cpaninfo::Adapter::Release -
 
 =cut
 
-sub AUTOLOAD ($self) { shift->SUPER::AUTOLOAD }
+sub AUTOLOAD ($self) { $self->SUPER::AUTOLOAD }
 
 sub _map ( $class ) {
-	state %methods = map { $_, 1 } qw(
+	state %methods = map { ($_, 1); } qw(
 		abstract archive authorized changes date distribution download_url
 		first maturity main_module meta mtime name version
 		);

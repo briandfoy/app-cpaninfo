@@ -1,4 +1,4 @@
-use v5.20;
+use v5.36;
 
 use App::cpaninfo::Adapter::Base;
 

@@ -1,4 +1,4 @@
-use v5.20;
+use v5.36;
 
 package App::cpaninfo::Command::try;
 use parent qw(App::cpaninfo::Command);

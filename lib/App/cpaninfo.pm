@@ -1,5 +1,5 @@
 use utf8;
-use v5.20;
+use v5.36;
 
 package App::cpaninfo;
 use experimental qw(signatures);

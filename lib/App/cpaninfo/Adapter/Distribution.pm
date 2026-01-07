@@ -1,5 +1,8 @@
+use v5.36;
+
 package App::cpaninfo::Adapter::Distribution;
 use parent qw(App::cpaninfo::Adapter::Base);
+use experimental qw(signatures);
 
 =encoding utf8
 
